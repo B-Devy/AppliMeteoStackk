@@ -1,0 +1,22 @@
+npm uninstall minimist       //------minimist étant un example
+npm i chalk@6.1.2 -D    //----- @ + version  et -D pour installation coté developpement
+si probleme: dans powershell mettre restriction de script sur CurrentUser : Remotesigned
+
+pour débugger: node inspect ./app.js
+dans navigateur chrome: chrome://inspect/#devices
+bien déclancher le debuggage avec la fleche
+
+npm i postman-request.
+npm i express
+dans express les fonctions get et listen sont clef .
+listen lance le server web
+send change objet js en JSON
+var __dirname renvoie l'arborescence du fichier
+
+echo "# essai" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/B-Devy/essai.git
+git push -u origin main
